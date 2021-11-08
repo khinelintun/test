@@ -1,0 +1,49 @@
+
+body {
+    background-image: url("public/img/body_bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.title{
+    color: #504848;
+    font-weight: bold;
+    font-size: 35px;
+}
+.container{
+    min-width: 200px;
+    width: 500px;
+    background-color: #E0E0E0;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 15px darkslategray;
+    border: 1px solid;
+}
+.item{
+    line-height: 35px;
+    border-radius: 15px;
+}
+.submit{
+    width: 200px;
+    border-radius: 15px;
+    line-height: 35px;
+    background-color: #504848;
+    color: white;
+    font-size: 20px;
+}
+.sign_in{
+    text-align: center;
+    line-height: 50px;
+}
+#sign_in{
+    font-weight: bold;
+    text-decoration: none;
+}
+#sign_in:hover{
+    color: #4f5050;
+}
+.submit:hover{
+    background-color:  #463333 ;
+    color: white;
+}
